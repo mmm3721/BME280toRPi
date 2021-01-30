@@ -10,8 +10,8 @@ Adafruit_BME280 bme;
 
 float temperature, humidity, pressure, altitude;
 
-const char* ssid = "PlanetM3_2G";
-const char* password = "Tri66bonI";
+const char* ssid = "WiFi";
+const char* password = "password";
 
 // MQTT
 const char* mqtt_server = "192.168.0.8";  // IP of the MQTT broker
@@ -19,9 +19,9 @@ const char* humidity_topic = "boat/saloon/humidity";
 const char* temperature_topic = "boat/saloon/temperature";
 const char* pressure_topic = "boat/saloon/pressure";
 const char* altitude_topic = "boat/saloon/altitude";
-const char* mqtt_username = "rambleOn"; // MQTT username
-const char* mqtt_password = "loveboating"; // MQTT password
-const char* clientID = "client_boat"; // MQTT client ID
+const char* mqtt_username = "username"; // MQTT username
+const char* mqtt_password = "password"; // MQTT password
+const char* clientID = "clientId"; // MQTT client ID
 
 // MQTT
 WiFiClient wifiClient;
